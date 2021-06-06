@@ -23,14 +23,7 @@ function App() {
             render={(props) => <User {...props} />}
           />
 
-          {/* <Route>
-            exact path="/Users/:id" location={this.props.location}
-            key={this.props.location.key}
-            render=
-            {({ location, match }) => (
-              <User key={this.props.location.key} match={match} />
-            )}
-          </Route> */}
+       
 
           <Route path="/About">
             <About />
